@@ -1,2 +1,6 @@
 # string_enumerator.rb
-string_enumerator.
+result = []
+
+"cat".each_char.each_with_index {|item, index| result << [item, index];  }
+print result
+puts
